@@ -1,5 +1,5 @@
 pipeline {
-    agent anydfgdfdf
+    agent any
 
     parameters {
         string(name: 'environment', defaultValue: 'default', description: 'Workspace/environment file to use for deployment')
